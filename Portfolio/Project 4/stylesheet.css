@@ -1,0 +1,47 @@
+.title {
+  font-family: system-ui;
+}
+
+#tictactoe, table, td[indicator='1'] {
+  font-family: cursive, Comic Sans;
+  font-size: 50px;
+  font-weight: bolder;
+  margin: auto;
+  color: rgb(204, 188, 44);
+  overflow: hidden;
+  border: none;
+}
+
+td {
+  border-width: 7px;
+  border-style: solid;
+  border-width: 7px;
+  border-radius: 100px;
+  border-color: rgb(149, 109, 161)
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+body {
+  background-color: rgb(47, 13, 61);
+}
+
+#newGame {
+  text-align: center;
+}
+
+button {
+  font-family: system-ui;
+  background-color: #69db6d;
+  border: none;
+  color: rgb(3, 3, 3);
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 20px;
+  margin: 30px;
+  cursor: pointer; 
+}

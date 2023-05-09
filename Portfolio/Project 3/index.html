@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Simple Analysis</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+	<div class="calculate">
+		
+		<div class="container-calculate">
+		<div id="title">
+		<h1><strong>Simple Analysis</strong></h1>
+		</div>
+			<form class="calculate-form validate-form">
+				<span class="calculate-form-title">
+					Enter Three Numbers 
+				</span>
+
+				<div class="wrap-input1 validate-input" data-validate = "Number is required">
+					<label><strong>Number 1</strong></label>
+					<input class="input1" type="text" name="num1" id ="num1" placeholder="ex. 10">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Number is required">
+					<label><strong>Number 2</strong></label>
+					<input class="input1" type="text" name="num2" id ='num2' placeholder="ex. 100">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" data-validate = "Number is required">
+					<label><strong>Number 3</strong></label>
+					<input class="input1" type="text" name="num3" id ='num3' placeholder="ex. 1000">
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="container-calculate-form-btn">
+					<button class="calculate-form-btn" id="calButton">
+						<span>
+							Calculate
+						</span>
+					</button>
+				</div>
+			</form>
+
+			<div class="summary">
+				<span class="calculate-form-title"></span>
+				<div class="results-container">
+					<h3><strong>Summary Statistics</strong></h3>
+					<ul id="stats-list">
+						<li><b>Max:</b></li>
+						<li><b>Min:</b></li>
+						<li><b>Mean:</b></li>
+						<li><b>Median:</b></li>
+						<li><b>Range:</b></li>
+					  </ul>
+				</div>
+			</div>
+		</div>
+	</div> 
+  
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+	<script src="js/calculator.js"></script>
+
+</body>
+</html>

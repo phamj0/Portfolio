@@ -1,0 +1,36 @@
+html * {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  color: rgb(16, 16, 165);
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 1px;
+}   
+
+h2 {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 1px;
+}
+
+img {
+    padding: 15px;
+}
+
+p {
+    margin: 1px;
+}
+
+span {
+    color: rgb(16, 16, 165);
+}
+
+a:link {
+    color:rgb(86, 75, 235)
+}
+
+.self {
+    float: right;
+}
